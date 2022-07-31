@@ -15,7 +15,7 @@ namespace NewHelloWorld.Controllers
 
         public IActionResult Index()
         {
-            ViewBag["welcomemsg"] = "Welcome to MVC";
+            ViewData["welcomemsg"] = "Welcome to MVC and Azure DevOps";
             return View();
         }
 
